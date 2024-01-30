@@ -4,7 +4,7 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
-  "Hello World"
+  erb(:elephant)
 end
 
 get("/zebra") do
